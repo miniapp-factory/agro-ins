@@ -1,0 +1,424 @@
+
+# 2025-11-20 19:16:19.294475
++Code the following app
++```
++**Technical Specification (TS)
++
++Construction Assistant Application “BuildPro”**
++
++1. Project Overview
++
++BuildPro is a mobile and desktop application designed for construction workers, site managers, and independent contractors.
++The app helps users calculate materials, manage tasks, track project progress, and generate reports for construction jobs.
++
++2. Objectives
++
++Simplify daily work for builders and foremen.
++
++Provide reliable tools for material calculation and cost estimation.
++
++Improve communication between team members.
++
++Reduce paperwork by digitizing checklists, measurements, and reports.
++
++Increase project efficiency through planning and monitoring features.
++
++3. Core Features
++3.1 Material Calculator
++
++Concrete volume calculator (slabs, columns, beams).
++
++Brick and block calculator (walls, openings, mortar).
++
++Rebar calculator (length, weight, layout).
++
++Wood and insulation calculator.
++
++Roofing material calculator.
++
++Automatic unit conversion (metric/imperial).
++
++3.2 Cost Estimation Module
++
++Price database (editable by user).
++
++Automatic calculation of project cost:
++
++Materials
++
++Labor
++
++Machinery
++
++Transport
++
++Export to PDF/Excel.
++
++3.3 Project Management
++
++Task planning (daily / weekly / monthly).
++
++Gantt chart for timelines.
++
++Assign tasks to workers.
++
++Progress tracking with photos and notes.
++
++Notifications and reminders.
++
++3.4 Measurement Tools
++
++Augmented Reality (AR) measurement for distance, height, area.
++
++Digital ruler and level tool.
++
++Laser meter integration (Bluetooth).
++
++3.5 Documentation & Reporting
++
++Daily construction log.
++
++Safety checklist.
++
++Defect reporting (with image attachments).
++
++Automatic report generation (PDF).
++
++Cloud storage for documents.
++
++3.6 Team Communication
++
++Group chats for each project.
++
++File and drawing sharing (DWG, PDF, JPG).
++
++Voice messages.
++
++Push notifications for updates.
++
++3.7 Blueprint Viewer
++
++Support for PDF, DWG, PNG.
++
++Layer toggling for DWG.
++
++Annotation tools: draw, comment, highlight.
++
++3.8 AI Assistant (optional)
++
++Generate material lists from a room/wall photo.
++
++Detect measurement from image.
++
++Suggest optimal materials based on project type.
++
++Auto-fill daily reports.
++
++4. Platform Requirements
++4.1 Supported Platforms
++
++Android 9+
++
++iOS 13+
++
++Web version (Chrome, Firefox, Safari, Edge)
++
++4.2 Recommended Tech Stack
++
++Frontend: Flutter (mobile) + React (web)
++
++Backend: Node.js / Django
++
++Database: PostgreSQL
++
++Cloud Storage: AWS S3 / Google Cloud
++
++AI Models: Cloud-based API
++
++5. UI/UX Requirements
++
++Simple, durable design suitable for outdoor use.
++
++Large buttons for use with gloves.
++
++Offline mode for remote construction sites.
++
++Dark and high-contrast modes.
++
++Dashboard with quick access to:
++
++Calculator
++
++Projects
++
++Reports
++
++Measurements
++
++6. Performance Requirements
++
++App startup time ≤ 3 seconds.
++
++Material calculation ≤ 200 ms.
++
++Messaging latency < 500 ms.
++
++Offline data sync within 10 seconds after network restoration.
++
++7. Security Requirements
++
++User authentication (email, phone, or company account).
++
++Role-based access control (worker, foreman, manager).
++
++Encrypted data storage and communication (HTTPS, AES-256).
++
++Daily automatic cloud backup.
++
++8. Monetization Model
++
++Free version with basic calculators.
++
++Pro version (subscription):
++
++AI tools
++
++Unlimited reports
++
++Team management
++
++AR measurement
++
++Cloud storage
++
++9. Key Performance Indicators
++
++Monthly active users (MAU).
++
++Calculation tool usage frequency.
++
++Time saved on reporting.
++
++Team collaboration events.
++
++Subscription conversion rate.
+++
++✅ прототип інтерфейсу
++✅ архітектуру бази даних
++✅ user stories для розробників
++✅ логіку калькуляторів
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-20 19:16:19.295072
++Code the following app
++```
++**Technical Specification (TS)
++
++Construction Assistant Application “BuildPro”**
++
++1. Project Overview
++
++BuildPro is a mobile and desktop application designed for construction workers, site managers, and independent contractors.
++The app helps users calculate materials, manage tasks, track project progress, and generate reports for construction jobs.
++
++2. Objectives
++
++Simplify daily work for builders and foremen.
++
++Provide reliable tools for material calculation and cost estimation.
++
++Improve communication between team members.
++
++Reduce paperwork by digitizing checklists, measurements, and reports.
++
++Increase project efficiency through planning and monitoring features.
++
++3. Core Features
++3.1 Material Calculator
++
++Concrete volume calculator (slabs, columns, beams).
++
++Brick and block calculator (walls, openings, mortar).
++
++Rebar calculator (length, weight, layout).
++
++Wood and insulation calculator.
++
++Roofing material calculator.
++
++Automatic unit conversion (metric/imperial).
++
++3.2 Cost Estimation Module
++
++Price database (editable by user).
++
++Automatic calculation of project cost:
++
++Materials
++
++Labor
++
++Machinery
++
++Transport
++
++Export to PDF/Excel.
++
++3.3 Project Management
++
++Task planning (daily / weekly / monthly).
++
++Gantt chart for timelines.
++
++Assign tasks to workers.
++
++Progress tracking with photos and notes.
++
++Notifications and reminders.
++
++3.4 Measurement Tools
++
++Augmented Reality (AR) measurement for distance, height, area.
++
++Digital ruler and level tool.
++
++Laser meter integration (Bluetooth).
++
++3.5 Documentation & Reporting
++
++Daily construction log.
++
++Safety checklist.
++
++Defect reporting (with image attachments).
++
++Automatic report generation (PDF).
++
++Cloud storage for documents.
++
++3.6 Team Communication
++
++Group chats for each project.
++
++File and drawing sharing (DWG, PDF, JPG).
++
++Voice messages.
++
++Push notifications for updates.
++
++3.7 Blueprint Viewer
++
++Support for PDF, DWG, PNG.
++
++Layer toggling for DWG.
++
++Annotation tools: draw, comment, highlight.
++
++3.8 AI Assistant (optional)
++
++Generate material lists from a room/wall photo.
++
++Detect measurement from image.
++
++Suggest optimal materials based on project type.
++
++Auto-fill daily reports.
++
++4. Platform Requirements
++4.1 Supported Platforms
++
++Android 9+
++
++iOS 13+
++
++Web version (Chrome, Firefox, Safari, Edge)
++
++4.2 Recommended Tech Stack
++
++Frontend: Flutter (mobile) + React (web)
++
++Backend: Node.js / Django
++
++Database: PostgreSQL
++
++Cloud Storage: AWS S3 / Google Cloud
++
++AI Models: Cloud-based API
++
++5. UI/UX Requirements
++
++Simple, durable design suitable for outdoor use.
++
++Large buttons for use with gloves.
++
++Offline mode for remote construction sites.
++
++Dark and high-contrast modes.
++
++Dashboard with quick access to:
++
++Calculator
++
++Projects
++
++Reports
++
++Measurements
++
++6. Performance Requirements
++
++App startup time ≤ 3 seconds.
++
++Material calculation ≤ 200 ms.
++
++Messaging latency < 500 ms.
++
++Offline data sync within 10 seconds after network restoration.
++
++7. Security Requirements
++
++User authentication (email, phone, or company account).
++
++Role-based access control (worker, foreman, manager).
++
++Encrypted data storage and communication (HTTPS, AES-256).
++
++Daily automatic cloud backup.
++
++8. Monetization Model
++
++Free version with basic calculators.
++
++Pro version (subscription):
++
++AI tools
++
++Unlimited reports
++
++Team management
++
++AR measurement
++
++Cloud storage
++
++9. Key Performance Indicators
++
++Monthly active users (MAU).
++
++Calculation tool usage frequency.
++
++Time saved on reporting.
++
++Team collaboration events.
++
++Subscription conversion rate.
+++
++✅ прототип інтерфейсу
++✅ архітектуру бази даних
++✅ user stories для розробників
++✅ логіку калькуляторів
++```
++
++Generate an app logo and update the app metadata title and description.
